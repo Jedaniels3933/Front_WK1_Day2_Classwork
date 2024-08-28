@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Metadata about our page and the title of the tab -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML elements continued</title>
+</head>
+
+<!-- All visible content for our page -->
+<body>
+
+  <!-- Header - name of page and nav -->
+  <header>
+    <h1>Contra</h1>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content for our page -->
+  <main>
+
+    <!-- Blockquote: longer quotes -->
+    <!-- quote (q) automatically puts the text in quotation marks -->
+  
+    <article> <h2>Quotes</h2>
+      <blockquote>
+        "Contra is amazing"
+      </blockquote>
+      <p>-David, Teacher at Coding Temple</p>
+    
+      <q>Contra is amazing</q>
+    </article> 
+
+    <hr>
+  
+    <!-- Code snippets -->
+  <section>  
+    <h2>One of the reasons Contra is the best game ever</h2>
+    <p>They designed code like this</p>
+    
+    <pre> <!-- preformatted text -->
+      <!-- &lt; is sanitizing your code: preventing it from doing the actual code functionality. Includes greater than and less than symbol --> 
+      <code>&lt;!-- Speed run times --&gt;
+      &lt;div class="container"&gt;
+          &lt;header&gt;...&lt;/header&gt;
+          &lt;nav&gt;...&lt;/nav&gt;
+          &lt;main&gt;...&lt;/main&gt;
+          &lt;footer&gt;...&lt;/footer&gt;
+      &lt;/div&gt;
+      </code>
+    </pre> 
+  </section>
+
+  </main>
+  </body>
+  
+  </main>
+
+    <hr>
+  
+    <!-- Table -->
+    <h3>Table</h3>
+  
+    <table border="1" width="600">
+      <!-- Row1 -->
+      <tr> <!-- Table Row -->
+        <th> <!-- Table Header -->
+          Image
+        </th>
+        <th>Description</th>
+        <th>Media</th>
+      </tr>
+      <!-- Row 2 -->
+      <tr>
+        <td><img src="images/contra.jpg" alt="Contra Meme"></td>
+        <td>Ned Stark lord of winterfell</td>
+        <td>
+          <audio controls controlsList="nodownload" muted>
+            <source src="media/contra.mp3" type="audio/mp3">
+            <!-- Message that will show up if this doesn't work -->
+             Your browser doesn't support this audio type 
+          </audio>
+        </td>
+      </tr>
+      <!-- Row 3 -->
+       <tr>
+         <td>
+           <img src="images/contra2.jpg" alt="Another Contra Meme" width="350">
+         </td>
+         <td>Konami code above all</td>
+         <td>
+            <video width="320" height="240" controls muted>
+              <source src="media/PredatorContra.mp4" type="video/mp4">
+            </video>
+         </td>
+       </tr>
+    </table>
+  
+    <hr>
+  
+    <!-- Youtube Video -->
+    <aside>
+      <h3>Youtube Video</h3>
+    
+      <!-- Embed video: src="https://www.youtube.com/embed/YOUR_VIDEO_ID" -->
+      <!-- https://www.youtube.com/watch?v=9Tmx2BqMZrA -->
+    
+      <iframe src="https://www.youtube.com/embed/9Tmx2BqMZrA" frameborder="0" width="560" height="315" title="Youtube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </aside>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1490682143684-14369e18dce8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500">
+      <figcaption>A beautiful view of the mountains at sunset.</figcaption>
+    </figure>
+
+  </main>
+
+</body>
+<footer>
+Jeremiah Daniels &copy; Contact me at jdaniels3933@google.com 
+</footer>
+
+</html>
